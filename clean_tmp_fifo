@@ -1,0 +1,11 @@
+#!/bin/bash
+
+I=0
+while [ $I -lt $1 ]
+do
+	rm -f /tmp/ph_rls$I
+	rm -f /tmp/ph_rqst$I
+	
+	let I+=1
+	
+done
